@@ -18,6 +18,11 @@ body {
   width: 100vw;
 }
 
+.items {
+  display: flex;
+  gap: 24px;
+}
+
 .vector {
   gap: 24px;
   display: flex;
@@ -546,4 +551,42 @@ body {
   justify-content: center;
   border-radius: 999px;
   border: 1px solid rgba(41, 151, 255, 1);
+}
+
+.container1 {
+  width: 100vw;
+  /* height: 668px; */
+  display: flex;
+  column-gap: 15px;
+  overflow-x: scroll;
+  align-items: center;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
+}
+
+.container2 {
+  width: 100vw;
+  height: 292px;
+  display: flex;
+  column-gap: 15px;
+  overflow-x: scroll;
+  align-items: center;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
+}
+
+.web {
+  width: 417px;
+  height: 236px;
+  gap: 15px;
+  /* overflow: hidden;
+  background-color: antiquewhite; */
+}
+
+.web img {
+  object-fit: contain;
+  width: fit-content;
+  height: 100%;
 }
