@@ -565,20 +565,25 @@ body {
   scroll-snap-type: mandatory;
 }
 
-.container2 {
+.container3 {
   width: 100vw;
+  overflow: hidden;
+}
+
+.container2 {
+  width: fit-content;
   height: 292px;
   display: flex;
   column-gap: 15px;
-  overflow-x: scroll;
   align-items: center;
   scrollbar-width: none;
   scroll-behavior: smooth;
   scroll-snap-type: mandatory;
+  animation: slider 20s infinite linear;
 }
 
 .web {
-  width: 417px;
+  /* width: 417px; */
   height: 236px;
   gap: 15px;
   /* overflow: hidden;
@@ -586,7 +591,15 @@ body {
 }
 
 .web img {
-  object-fit: contain;
-  width: fit-content;
+  object-fit: cover;
   height: 100%;
+}
+
+@keyframes slider {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
