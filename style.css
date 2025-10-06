@@ -18,6 +18,10 @@ body {
   width: 100vw;
 }
 
+.header-menu {
+  display: none;
+}
+
 .items {
   display: flex;
   gap: 24px;
@@ -26,6 +30,14 @@ body {
 .vector {
   gap: 24px;
   display: flex;
+}
+
+.bosoo {
+  display: none;
+}
+
+.tablet {
+  display: none;
 }
 
 .head {
@@ -105,7 +117,7 @@ body {
   gap: 12px;
 }
 
-.ip img {
+.back1 {
   width: 100vw;
   height: 692px;
 }
@@ -174,6 +186,78 @@ body {
   align-items: end;
 }
 
+.gift2 {
+  display: none;
+  background-image: url(haha.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.magic2 {
+  padding-top: 30px;
+  width: 100vw;
+  height: 146px;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  font-size: 18px;
+}
+
+.shop2 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.shop2 h1 {
+  background: blue;
+  border-radius: 999px;
+  font-size: 16px;
+  width: 123px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.shop2 h2 {
+  color: rgb(30, 0, 255);
+  font-size: 16px;
+  width: 68px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid rgb(4, 0, 255);
+}
+
+.h {
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  width: 100vw;
+  height: 18px;
+  background: linear-gradient(
+    90.43deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-size: 14px;
+  position: absolute;
+  padding-top: 600px;
+}
+
 .magic {
   width: 405px;
   height: 172px;
@@ -229,7 +313,6 @@ body {
 .pad {
   /* width: 50vw; */
   height: 580px;
-  /* align-items: end; */
   display: flex;
   justify-content: center;
   background-image: url(Figure\ 2.png);
@@ -283,7 +366,6 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 999px;
-  border: 1px solid rgb(4, 0, 255);
 }
 
 .f {
@@ -305,6 +387,57 @@ body {
   position: absolute;
   padding-top: 550px;
 }
+
+/* .airpods2 {
+  display: none;
+  background-image: url(tsag.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.airpods3 {
+  padding-top: 30px;
+  width: 100vw;
+  height: 146px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.buya {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.buya h1 {
+  background: blue;
+  border-radius: 999px;
+  font-size: 16px;
+  width: 123px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.buya h2 {
+  color: rgb(30, 0, 255);
+  font-size: 16px;
+  width: 68px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid rgb(4, 0, 255);
+} */
 
 .airpod {
   /* width: 50vw; */
@@ -588,17 +721,21 @@ body {
 .web1 {
   display: flex;
   align-items: center;
-  position: absolute;
+  background-image: url(2k25.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 413px;
+  height: 236px;
+  align-items: flex-end;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  /* position: relative;
+  overflow: hidden; */
 }
 
-.web1 img {
-  width: 417px;
-  height: 235px;
-}
-
-.web1 p {
-  font-size: 16px;
-  color: #ffffff;
+.web1 h1 {
+  font-size: 20px;
+  color: #fffefe;
 }
 
 .web2 {
@@ -607,6 +744,13 @@ body {
   width: 417px;
   height: 235px;
   background-color: brown;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.web2 h1 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
 }
 
 .web2 img {
@@ -617,11 +761,19 @@ body {
 .web3 {
   display: flex;
   align-items: center;
+  background-image: url(run.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 413px;
+  height: 236px;
+  align-items: flex-end;
+  padding-left: 10px;
+  padding-bottom: 8px;
 }
 
-.web3 img {
-  width: 417px;
-  height: 235px;
+.web3 h1 {
+  font-size: 20px;
+  color: #ffffff;
 }
 
 .web4 {
@@ -630,6 +782,13 @@ body {
   width: 417px;
   height: 235px;
   background-color: gray;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.web4 h1 {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
 }
 
 .web4 img {
@@ -640,41 +799,73 @@ body {
 .web5 {
   display: flex;
   align-items: center;
+  background-image: url(kitty.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 413px;
+  height: 236px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  align-items: flex-end;
 }
 
-.web5 img {
-  width: 417px;
-  height: 235px;
+.web5 h1 {
+  color: white;
+  font-size: 20px;
 }
 
 .web {
   display: flex;
   align-items: center;
+  background-image: url(football.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 413px;
+  height: 236px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  align-items: flex-end;
 }
 
-.web img {
-  width: 417px;
-  height: 235px;
+.web h1 {
+  color: white;
+  font-size: 20px;
 }
 
 .web6 {
   display: flex;
   align-items: center;
+  background-image: url(fitness.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 413px;
+  height: 236px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  align-items: flex-end;
 }
 
-.web6 img {
-  width: 417px;
-  height: 235px;
+.web6 h1 {
+  color: white;
+  font-size: 20px;
 }
 
 .web7 {
   display: flex;
   align-items: center;
+  background-image: url(stregth\ .jpg);
+  background-position: center;
+  background-size: cover;
+  width: 413px;
+  height: 236px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  align-items: flex-end;
 }
 
-.web7 img {
-  width: 417px;
-  height: 235px;
+.web7 h1 {
+  font-size: 20px;
+  color: white;
 }
 
 .web8 {
@@ -682,7 +873,14 @@ body {
   align-items: center;
   width: 417px;
   height: 235px;
-  background-color: gray;
+  background-color: rgb(23, 23, 131);
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.web8 h1 {
+  font-size: 30px;
+  color: white;
 }
 
 .web8 img {
@@ -695,12 +893,19 @@ body {
   align-items: center;
   width: 417px;
   height: 235px;
-  background-color: gray;
+  background-color: beige;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 
 .web9 img {
   width: 196px;
   height: 196px;
+}
+
+.web9 h1 {
+  font-size: 30px;
+  color: white;
 }
 
 @keyframes slider {
@@ -709,5 +914,115 @@ body {
   }
   100% {
     transform: translateX(-50%);
+  }
+}
+
+.lady {
+  display: none;
+  background-image: url(hvvhen.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.cobe {
+  padding-top: 350px;
+  width: 241px;
+  height: 161px;
+  gap: 5px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.ai {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.ai h1 {
+  background: blue;
+  border-radius: 999px;
+  font-size: 16px;
+  width: 123px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.ai h2 {
+  color: rgb(30, 0, 255);
+  font-size: 16px;
+  width: 68px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid rgb(4, 0, 255);
+}
+
+@media (max-width: 768px) {
+  .header-menu {
+    display: block;
+  }
+  .items {
+    display: none;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .tablet {
+    display: block;
+  }
+  .bosoo {
+    display: none;
+  }
+  .hewtee {
+    display: none;
+  }
+  .gift2 {
+    display: block;
+  }
+  .gift {
+    display: none;
+  }
+  .pad {
+    display: none;
+  }
+  .airpod {
+    display: none;
+  }
+  .airpods2 {
+    display: block;
+  }
+  .lady {
+    display: block;
+  }
+}
+
+@media (max-width: 390px) {
+  .bosoo {
+    display: block;
+  }
+  .hewtee {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+  .pro {
+    align-items: flex-end;
+  }
+  .pro1 {
+    padding-bottom: 50px;
   }
 }
