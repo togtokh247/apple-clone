@@ -918,7 +918,7 @@ body {
 }
 
 .lady {
-  display: none;
+  display: none ;
   background-image: url(hvvhen.png);
   background-size: cover;
   background-repeat: no-repeat;
